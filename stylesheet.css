@@ -1,0 +1,309 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからcssを書いていきましょう */
+/*ヘッダー１*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 1);
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 125px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 30px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-list li{
+  font-size: 20px;
+  float: left;
+  transition: all 0.5s;
+  margin-right: 30px;
+}
+
+.header-list li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/*フルスクリーントップ１*/
+/*https://aoyama-garden.com/img/usr/aoyama/freepage/zoom/leeds.jpg*/
+
+.top-wrapper {
+  padding: 120px 0 380px 0;
+  background-image: url(top1.png);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  object-fit: cover;
+}
+
+.background{
+  background-image: url(back6.png);
+  background-size: cover;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 100px;
+  letter-spacing: 9px;
+  color: #FF8C00;
+}
+
+
+
+.top-wrapper h3 {
+
+  font-size: 30px;
+  opacity: 0.8;
+  color: white;
+}
+
+
+.assemble {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.master {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+/*境界１*/
+.heading {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+  background-color: rgba(34, 49, 52, 1);
+  font-size: 20px;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+/*ボディ１*/
+.personalitys{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.personality{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 250px;
+  vertical-align: middle;
+}
+
+.personalityR{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 250px;
+}
+
+.personality img{
+  height: 250px;
+  width: 470px;
+  object-fit: cover;
+  float:left;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+}
+
+.personalityR img{
+  height: 250px;
+  width: 470px;
+  object-fit: cover;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+}
+
+.text-contents {
+  padding-top: 30px;
+  height: 218px;
+  width: 53%;
+  display: inline-block;
+  float: right;
+  font-size: 17px;
+  color: #808080;
+  border-top: 1px solid #99ccff;
+  border-bottom: 1px solid #99ccff;
+}
+
+.text-contentsR {
+  padding-top: 30px;
+  height: 218px;
+  width: 53%;
+  display: inline-block;
+  float: left;
+  font-size: 17px;
+  color: #808080;
+  border-top: 1px solid #99ccff;
+  border-bottom: 1px solid #99ccff;
+}
+
+/*境界2*/
+.heading2 {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  width: 300px;
+  margin: 80px auto 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #99ccff;
+}
+.heading2 p{
+  font-size: 17px;
+}
+
+.guild-history{
+  width: 500px;
+  margin: 0 auto;
+}
+.guild-history dt{
+  float: left;
+  padding-bottom: 25px;
+}
+.guild-history dd{
+  margin-left: 170px;
+  padding-bottom: 25px;
+}
+
+.contacts{
+  height: 400px;
+}
+
+.contact{
+  display: inline-block;
+  margin: 50px 50px;
+  vertical-align: middle;
+
+}
+
+h4{
+  font-size: 20px;
+}
+.text p{
+  color: #808080;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.contact img{
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+}
+
+.twitter{
+  background-color: #55acee;
+
+}
+.btn{
+  padding: 8px 24px;
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.content img{
+  height: 250px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.content p{
+  margin-bottom: 15px;
+  color: #808080;
+}
+
+.resultlink p{
+  color: black;
+  text-decoration: underline;
+}
+
+.gallerylink p{
+  color: black;
+  text-decoration: underline;
+}
+
+/*フッター１*/
+footer {
+  border-top: 2px solid #eee;
+  height: 65px;
+  width: 100%;
+  padding-top: 20px;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.footer-left {
+  margin-bottom: 30px;
+}
+
+.footer-left p {
+  font-size: 15px;
+  color: #b3aeb5;
+}
